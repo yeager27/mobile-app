@@ -1,0 +1,43 @@
+{
+	"strict": {
+		"text-font-family": "Gilroy-Regular"
+	},
+	"components": {
+		"Button": {
+			"appearances": {
+				"filled": {
+					"mapping": {},
+					"variantGroups": {
+						"status": {
+							"primary": {
+								"textFontFamily": "text-font-family-semiBold"
+							}
+						}
+					}
+				}
+			}
+		},
+		"Select": {
+			"appearances": {
+				"default": {
+					"mapping": {
+						"textFontSize": 14,
+						"textFontFamily": "text-font-family-medium",
+						"paddingVertical": 20,
+						"backgroundColor": "white"
+					}
+				}
+			}
+		},
+		"SelectOption": {
+			"appearances": {
+				"default": {
+					"mapping": {
+						"textFontSize": 14,
+						"textFontFamily": "text-font-family-medium"
+					}
+				}
+			}
+		}
+	}
+}
